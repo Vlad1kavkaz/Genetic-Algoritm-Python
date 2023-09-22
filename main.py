@@ -3,10 +3,10 @@ import math
 import time
 from graph import graph
 
-POPULATION_SIZE = 100
-NUM_GENERATIONS = 1000
+POPULATION_SIZE = 10
+NUM_GENERATIONS = 10000
 MUTATION_RATE = 0.03
-NUM_CITIES = 15
+NUM_CITIES = 20
 
 # Чтение точек из текстового файла
 def read_points_from_file(filename):

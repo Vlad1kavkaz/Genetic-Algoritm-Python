@@ -17,7 +17,7 @@ def graph():
         plt.plot([x_coords[i], x_coords[i + 1]], [y_coords[i], y_coords[i + 1]], marker='o', color='blue')
 
     # Подсветка точки (1, 2) красным цветом
-    plt.plot(1, 2, marker='o', color='red')
+    plt.plot(1, 1, marker='o', color='red')
 
     plt.xlabel('X')
     plt.ylabel('Y')
